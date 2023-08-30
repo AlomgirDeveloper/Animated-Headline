@@ -1,0 +1,61 @@
+/*
+Template Name: Animated Headline 
+Author: Alomgir Hosen
+Version: 1.0
+Description: A simple portfolio template.
+*/
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Josefin Sans', sans-serif;
+}
+/* SECRION  */
+#hero {
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.8)), url(back3.jpg) no-repeat center top / cover;
+}
+.hero-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+}
+.hero-content h1{
+    font-size: 55px;
+    text-align: center;
+    font-weight: bold;
+}
+.hero-content h1 .w8 {
+    font-weight: 100;
+    
+}
+.ah-headline.clip .ah-words-wrapper::after {
+    background-color: #fff;
+}
+ul{
+    text-align: center;
+    margin-top: 20px;
+}
+ul li{
+    list-style: none;
+    display: inline-block;
+    
+}
+ul li a ion-icon{
+    font-size: 40px;
+    background: #000;
+    border-radius: 50%;
+    color: #fff;
+    margin-left: 20px;
+    
+    
+}
+ul li a ion-icon:hover {
+
+    box-shadow: 0 0 5px cyan, 0 0 25px, 0 0 50px cyan, 0 0 100px, 0 0 200px cyan;
+}
